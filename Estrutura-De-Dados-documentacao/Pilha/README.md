@@ -1,6 +1,7 @@
 <h1>Pilhas</h1>
 
-Nos estudos anteriores aprendi sobre listas, onde as mesmas tem referencias para o próximo elemento, e também para o elemento anterior, sendo ótimas para operações onde inserimos elementos no meio da estrutura. Também vi que o Java possui isso implementado por meio da classe LinkedList. <br><br>
+Nos estudos anteriores aprendi sobre listas, onde as mesmas tem referencias para o próximo elemento, e também para o elemento anterior, sendo ótimas para operações onde inserimos elementos no meio da estrutura. Também vi que o Java possui isso implementado por meio da classe LinkedList.
+
 
 Nesse estudo vi uma outra estrutura de dados, chamada pilha. Essa estrutura, tem a característica de guardar diversos estados de uma aplicação, para que se necessário seja possível voltar a estados anteriores.<br><br>
 
@@ -162,7 +163,7 @@ public class Pilha {
 ainda temos outro método, que não foi implementado, É o método Peek
 
 
-###Método Peek
+### Método Peek
 
 Como vimos, o pop remove o último elemento da pilha. O método peek trabalha em cima desse elemento também, porém sem removê-lo. Ele apenas o retorna. Se temos, então, a pilha
 
@@ -172,6 +173,6 @@ Como vimos, o pop remove o último elemento da pilha. O método peek trabalha em
 O java também possue em sua biblioteca a implementação de uma pilha, por meio da classe *STACK*
 
 
-###Usabilidade das Pilhas
+### Usabilidade das Pilhas
 
 O conceito de pilhas é muito utilizado por compiladores e autômatos. Esta estrutura de dados tem muita usabilidade em ciências da computação. O próprio, e muito conhecido, comando "Desfazer" dos editores de texto, de código, de imagens, etc tem como base as pilhas. Podemos também brincar com palavras e inverter a ordem de suas letras utilizando as pilhas.

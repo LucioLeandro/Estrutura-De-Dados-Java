@@ -19,7 +19,9 @@ Para isso, implementei a * **Lista Ligada** * ou * ** Lista Encadeada ** * <br>
 
 A diferença dela para o Vetor é que neste os elementos estão um do lado do outro na memória, enquanto que na Lista Ligada eles estão em lugares diferentes, porém um aponta para o outro indicando o próximo.
 
-<img src=https://www.ime.usp.br/~pf/algoritmos/aulas/img/linked-list.jpg" alt="exemplo lista encadeado"/>
+<img src="https://www.ime.usp.br/~pf/algoritmos/aulas/img/linked-list.jpg" alt="exemplo lista encadeado"/>
+
+![exemplo lista encadeada](https://www.ime.usp.br/~pf/algoritmos/aulas/img/linked-list.jpg)
 
 Para implementar a estrutura na qual um elemeto também conhecerá o endereço do próximo, criei uma nova classe Aluno, que possuirá uma String nome, e o Aluno seguinte.
 

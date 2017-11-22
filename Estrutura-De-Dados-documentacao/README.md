@@ -6,6 +6,8 @@ Para o estudo de Estrutura de dados em java trabalharei com um sistema hipotéti
 
 Modelei a classe aluno com seu construtor e getter que guarda o nome do aluno, recebido em seu construtor.
 
+Com excessão das estruturas onde não precisarei usar a classe Aluno, todos os pacotes contidos no projeto desse estudo, conterá variações da classe Aluno.   
+
 <code>
 	
 	public class Aluno {
@@ -41,9 +43,6 @@ Também implementei os métodos ToString e equals.
 
 </code>
 
-equals é um método que serve para comparar dois alunos, e o toString nos retorna o nome do aluno quando imprimimos o objeto.
-
-
 
 A partir disso, implementarei as classes a quais trabalharei com as estruturas de dados
 
@@ -60,6 +59,9 @@ para cada uma dessas classes implementarei a estrutura e seus métodos de acesso
 - pega (recupera o aluno) na posição indicada
 - contem (verifica se o aluno está armazenado na estrutura)
 - Remove (deleta na posição indicada)
+
+
+Onde algumas apenas possue o método adiciona, remove, e contem.
 
 
 

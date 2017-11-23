@@ -1,0 +1,19 @@
+package ed.conjunto;
+
+import java.util.LinkedList;
+
+public class TesteDeConjunto {
+
+    public static void main(String[] args) {
+
+        Conjunto conjunto = new Conjutno();
+        conjunto.adiciona("Lucio");
+        System.out.println(conjunto);
+
+        conjunto.adiciona("Leandro");
+        System.out.println(conjunto);
+
+        conjunto.adiciona("Geandersonney");
+        System.out.println(conjunto);
+    }
+}

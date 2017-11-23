@@ -11,7 +11,7 @@ Para resolver esse problema podemos pensar na seguinte situação :
 > Sabemos que os sorvetes, se encontram na seção de congelados, então, vamos diretamente lá.
 
 Então podemos usar essa estratégia, para ter uma melhor implementação do método contains, criando uma espécie de matriz, onde teremos uma lista pra cada seção.  
-*Mas como organizar essas listas ?* para este caso usarei a letra inicial como índice, que nesse caso divide a matriz em 26 linhas.
+**Mas como organizar essas listas ?** para este caso usarei a letra inicial como índice, que nesse caso divide a matriz em 26 linhas.
 
 Na implementação criamos, listas de lista.
 
